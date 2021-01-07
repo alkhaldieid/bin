@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+echo  comparing $1 to $2
+awk 'FNR==NR {a[$0]++; next} !($0 in a)' $1 $2

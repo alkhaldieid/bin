@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+trans -no-ansi -no-bidi  :ar  $(xclip -o | head -n1 | awk '{print $1}') |while read OMSG; do notify-send "$OMSG";done
+
