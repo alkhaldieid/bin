@@ -1,0 +1,8 @@
+#!/bin/zsh -f
+REPOS='/home/alkhaldieid/Dropbox/repos.txt'
+while read -r line
+do
+    echo "Repository: $line"
+    cd $line
+    git pull
+done < "$REPOS"
