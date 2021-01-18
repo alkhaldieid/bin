@@ -10,4 +10,5 @@ do
     git add . >/dev/null 2>&1
     git commit -m "$(date)"
     git pull
+    git config pull.rebase false
 done < "$REPOS"
