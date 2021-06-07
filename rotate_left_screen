@@ -1,0 +1,2 @@
+#!/bin/zsh -f
+xrandr --output DP-1 --rotate right  --left-of HDMI-0 --output HDMI-0 --primary
