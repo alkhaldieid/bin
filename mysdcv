@@ -1,1 +1,0 @@
-notify-send '$(sdcv -u \"English - Arabic\015\" -0 $(xclip -o)'
